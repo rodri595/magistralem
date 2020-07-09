@@ -12,15 +12,17 @@ class Footer extends Component {
                 <li>Cold Cream</li>
                 <li>Urea</li>
                 <li>Hand Sanitizer</li>
+                <li>Minoxidil</li>
               </ul>
             </div>
 
             <div className="col-md-4">
               <h5>Magistralem</h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur scelerisque, tortor nec mattis feugiat, velit purus
-                euismod odio, quis vulputate velit urna.
+                Se enfoca en la optimización y fundamentación de la formulación
+                individualizada, aumentando así el espectro de alternativas
+                terapéuticas para los prescriptores, para facilitar los
+                tratamientos farmacéuticos individualizados.
               </p>
               <p>
                 <a
@@ -35,7 +37,10 @@ class Footer extends Component {
           <div className="divider"></div>
           <div className="row">
             <div className="col-md-6 col-xs-12">
-              <a href="https://www.facebook.com/magistralem/" target="blank">
+              <a
+                href="https://www.facebook.com/magistralemfarma"
+                target="blank"
+              >
                 <ion-icon size="large" name="logo-facebook"></ion-icon>
               </a>
               <a
@@ -50,13 +55,16 @@ class Footer extends Component {
               >
                 <ion-icon size="large" name="logo-youtube"></ion-icon>
               </a>
-              <a href="tel:+504-9992-6637">
+              <a
+                href="https://wa.me/50499926637?text=|Web|Buen%20Dia%20Dra.%20Janeth%20Aleman%20,Mi%20Nombre%20es:%20"
+                target="blank"
+              >
                 <ion-icon size="large" name="logo-whatsapp"></ion-icon>
               </a>
             </div>
             <div className="col-md-6 col-xs-12">
               <small>
-                2019 &copy; All rights reserved. Made by{" "}
+                2019 &copy; All rights reserved. Made with ♥ by{" "}
                 <a
                   href="https://www.instagram.com/rodri595/"
                   target="blank"

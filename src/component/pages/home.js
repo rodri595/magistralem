@@ -2,11 +2,14 @@ import React, { Component } from "react";
 
 import banner from "./bannernew.png";
 import "@ptkdev/webcomponent-instagram-widget";
+import Header from "../header/header";
+import Footer from "../footer/footer";
 
 export default class Home extends Component {
   render() {
     return (
       <div>
+        <Header />
         <section className="hero-banner mb-30px">
           <div className="container">
             <div className="row">
@@ -18,9 +21,9 @@ export default class Home extends Component {
               <div className="col-lg-5 pt-5">
                 <h1>Formulas Magistrales</h1>
                 <p>
-                  Vel aliquam quis, nulla pede mi commodo tristique nam hac
-                  Luctun torquent velit felis commodo pellentesque nulla cras
-                  vel aliqua quisan nulla pede mi commoda
+                  es un programa multinacional que brinda a los farmacéuticos y
+                  prescriptores una amplia variedad de formulaciones de
+                  ingredientes activos e indicaciones individualizadas.
                 </p>
               </div>
             </div>
@@ -114,6 +117,7 @@ export default class Home extends Component {
             </div>
           </section>
         </section>
+        <Footer />
       </div>
     );
   }

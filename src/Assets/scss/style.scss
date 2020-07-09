@@ -2,13 +2,24 @@
   width: 100%;
   height: 100%;
 }
-
 /*-----------------------------------------------------------------------------------------------------*/
 .global {
   height: 100vh;
 }
 .global-vademecum {
-  height: 85vh;
+  height: 100vh;
+}
+.global-contactanos {
+  height: 100vh;
+}
+
+@media (min-width: 700px) and (orientation: landscape) {
+  .global-vademecum {
+    height: 100%;
+  }
+  .global-contactanos {
+    height: 100%;
+  }
 }
 
 body {
@@ -531,6 +542,7 @@ footer small {
 /* ==============================================
   por que nosotros
 ===============================================*/
+
 .section-heading {
   position: relative;
   z-index: 1;

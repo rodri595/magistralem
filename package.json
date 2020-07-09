@@ -6,10 +6,10 @@
     "@ptkdev/webcomponent-instagram-widget": "^2.6.1",
     "gulp-cli": "^2.3.0",
     "leaflet": "^1.6.0",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-leaflet": "^2.7.0",
-    "react-router-dom": "^5.0.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "2.1.8"
   },
   "scripts": {
@@ -28,10 +28,10 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-changed": "^3.2.0",
-    "gulp-clean-css": "^4.2.0",
+    "gulp-clean-css": "^4.3.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.1.0"
   }
 }
