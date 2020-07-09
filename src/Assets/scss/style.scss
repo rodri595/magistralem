@@ -1,3 +1,16 @@
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+.global {
+  height: 100vh;
+}
+.global-vademecum {
+  height: 85vh;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #3a3f52;
@@ -653,6 +666,7 @@ footer small {
    9. Media Queries
 ===============================================*/
 /* Extra small devices (portrait phones, less than 576px) */
+
 @media (max-width: 575.98px) {
   h2 {
     font-size: 34px !important;
@@ -698,6 +712,10 @@ footer small {
     float: left;
     margin-top: 20px;
   }
+  .leaflet-container {
+    width: 100%;
+    height: 500px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -707,6 +725,10 @@ footer small {
   }
   #hero p {
     font-size: 20px !important;
+  }
+  .leaflet-container {
+    width: 100%;
+    height: 500px;
   }
 }
 
@@ -723,6 +745,10 @@ footer small {
   .navbar-nav .nav-link {
     padding: 20px 0;
     text-align: left;
+  }
+  .leaflet-container {
+    width: 100%;
+    height: 500px;
   }
 
   .btn-demo-small {
@@ -771,6 +797,10 @@ footer small {
   .nav-logo-mobile {
     display: none;
   }
+  .leaflet-container {
+    width: 100%;
+    height: 500px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -778,10 +808,18 @@ footer small {
   .hero-content {
     margin-top: 100px;
   }
+  .leaflet-container {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .leaflet-container {
+    width: 100%;
+    height: 500px;
+  }
   .information-box h3 {
     font-size: 17px;
   }

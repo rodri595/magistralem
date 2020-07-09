@@ -1,11 +1,14 @@
 {
   "name": "magistralem",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.18.1",
+    "@ptkdev/webcomponent-instagram-widget": "^2.6.1",
+    "gulp-cli": "^2.3.0",
+    "leaflet": "^1.6.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "react-leaflet": "^2.7.0",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8"
   },
@@ -25,12 +28,10 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "browser-sync": "^2.26.7",
     "gulp": "^4.0.0",
     "gulp-changed": "^3.2.0",
     "gulp-clean-css": "^4.2.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-uglify": "^3.0.2"
+    "gulp-sass": "^4.0.2"
   }
 }
