@@ -6,7 +6,7 @@
     "@ptkdev/webcomponent-instagram-widget": "^2.6.1",
     "gulp-cli": "^2.3.0",
     "leaflet": "^1.6.0",
-    "react": "^16.8.4",
+    "react": "^16.13.1",
     "react-dom": "^16.8.4",
     "react-leaflet": "^2.7.0",
     "react-router-dom": "^5.0.0",
